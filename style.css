@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("webpage.jpg"); /* same kind of image as shown */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;     
+    background-color: rgb(38, 38, 102);
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.buttongroup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttongroup button {
+    background-color: #3a3a8f;
+    border: none;
+    margin: 5px;
+    padding: 10px 25px;
+    border-radius: 6px;
+}
+
+.buttongroup a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+/* About section */
+.about {
+    width: 60%;
+    margin: 80px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.about h1 {
+    margin-top: 0;
+    font-size: 28px;
+}
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.container {
+        text-align: center;
+        width: 100%;
+        max-width: 800px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        }
+
+
